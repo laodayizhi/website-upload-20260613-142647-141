@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>影片搜索-国产电视剧视频免费在线观看</title>
+  <meta name="description" content="国产高清电影电视剧搜索页，支持按片名、年份、地区、类型、分类和标签快速筛选片库内容。">
+  <meta name="keywords" content="国产视频免费在线观看_高清电影电视剧片库入口-年度国产热剧,国产,视频,免费,在线观看,高清,影视大全,影片搜索,影视搜索,在线筛选">
+  <link rel="stylesheet" href="./assets/styles.css">
+  
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="./index.html" aria-label="国产电视剧视频免费在线观看">
+      <span class="brand-mark">▶</span>
+      <span class="brand-text">国产电视剧视频免费在线观看</span>
+    </a>
+    <nav class="desktop-nav" aria-label="主导航">
+      <a class="nav-link" href="./index.html">首页</a>
+      <a class="nav-link" href="./categories.html">分类浏览</a>
+      <a class="nav-link" href="./rankings.html">排行榜</a>
+      <a class="nav-link is-active" href="./search.html">搜索</a>
+    </nav>
+    <form class="header-search" action="./search.html" method="get">
+      <input type="search" name="q" placeholder="搜索国产影片..." autocomplete="off">
+      <button type="submit">搜索</button>
+    </form>
+    <button class="mobile-menu-button" type="button" aria-label="打开导航" data-menu-toggle>☰</button>
+  </div>
+  <div class="mobile-nav" data-mobile-nav>
+    <form class="mobile-search" action="./search.html" method="get">
+      <input type="search" name="q" placeholder="搜索国产影片..." autocomplete="off">
+      <button type="submit">搜索</button>
+    </form>
+    <a class="nav-link" href="./index.html">首页</a>
+    <a class="nav-link" href="./categories.html">分类浏览</a>
+    <a class="nav-link" href="./rankings.html">排行榜</a>
+    <a class="nav-link is-active" href="./search.html">搜索</a>
+  </div>
+</header>
+<main>
+  <section class="page-hero small-hero">
+    <div class="container">
+      <p class="hero-kicker">搜索筛选</p>
+      <h1>影片搜索</h1>
+      <p>输入片名、地区、年份、类型或标签，即可定位对应影视内容与详情页入口。</p>
+    </div>
+  </section>
+  <section class="content-section section-light">
+    <div class="container">
+      <form class="search-page-form" data-search-form>
+        <input type="search" name="q" placeholder="输入片名、类型、年份、地区或标签" autocomplete="off" data-search-input>
+        <select name="category" data-search-category>
+          <option value="">全部分类</option>
+          <option value="年度热播">年度热播</option><option value="国产专区">国产专区</option><option value="高清剧集">高清剧集</option><option value="悬疑惊悚">悬疑惊悚</option><option value="动作犯罪">动作犯罪</option><option value="都市爱情">都市爱情</option><option value="喜剧生活">喜剧生活</option><option value="奇幻科幻">奇幻科幻</option><option value="动画合家欢">动画合家欢</option><option value="现实剧情">现实剧情</option><option value="亚洲精选">亚洲精选</option><option value="海外片库">海外片库</option>
+        </select>
+        <button class="primary-button" type="submit">搜索</button>
+      </form>
+      <div class="movie-grid" data-search-results></div>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <a class="footer-brand" href="./index.html">
+        <span class="brand-mark">▶</span>
+        <span>国产电视剧视频免费在线观看</span>
+      </a>
+      <p>提供国产高清电影与电视剧视频的免费在线观看服务，整合片库资源入口，支持按热度、类型筛选，便于快速定位影视内容。</p>
+    </div>
+    <div>
+      <h2>片库入口</h2>
+      <a href="./categories.html">分类浏览</a>
+      <a href="./rankings.html">排行榜</a>
+      <a href="./search.html">影片搜索</a>
+    </div>
+    <div>
+      <h2>热门分类</h2>
+      <a href="./category-annual-hot.html">年度热播</a><a href="./category-domestic-zone.html">国产专区</a><a href="./category-hd-drama.html">高清剧集</a><a href="./category-suspense-thriller.html">悬疑惊悚</a><a href="./category-action-crime.html">动作犯罪</a><a href="./category-romance-city.html">都市爱情</a>
+    </div>
+    <div>
+      <h2>观影频道</h2>
+      <a href="./category-domestic-zone.html">国产专区</a>
+      <a href="./category-hd-drama.html">高清剧集</a>
+      <a href="./category-annual-hot.html">年度热播</a>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 国产电视剧视频免费在线观看</div>
+</footer>
+<script src="./assets/main.js"></script>
+<script src="./assets/search-data.js"></script>
+<script src="./assets/search.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
